@@ -10,8 +10,11 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "release": "auto shipit",
-        "commit": "commit"
+        "postbuild": "node ./scripts/clean-and-copy.js",
+        "commit": "commit",
+        "version": "npm version `auto version` -m 'chore: release v%s [skip ci]'",
+        "publish": "npm publish build && git push --follow-tags --set-upstream origin $branch",
+        "release": "auto changelog && npm run version && npm run build && npm run publish && auto release"
     },
     "browserslist": {
         "production": [
@@ -36,7 +39,6 @@
     },
     "devDependencies": {
         "@auto-it/conventional-commits": "^10.11.0",
-        "@auto-it/exec": "^10.11.0",
         "@auto-it/npm": "^10.11.0",
         "@commitlint/cli": "^11.0.0",
         "@commitlint/config-conventional": "^11.0.0",

@@ -2,17 +2,11 @@
 
 #### 🐛 Bug Fix
 
-- fix: release process (hariom@appointy.com)
+-   fix: release process (hariom@appointy.com)
 
 #### Authors: 1
 
-- Hariom Sharma (hariom@appointy.com)
-
----
-
-# v0.2.3 (Wed Jan 20 2021)
-
-
+-   Hariom Sharma (hariom@appointy.com)
 
 ---
 
