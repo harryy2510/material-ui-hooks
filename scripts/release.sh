@@ -10,7 +10,7 @@ if [ ! -z "$VERSION" ]; then
   npm version $VERSION -m "Bump version to: %s [skip ci]"
   npm run build
   node ./scripts/clean-and-copy.js
-  npm publish
+  npm publish build
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin $branch

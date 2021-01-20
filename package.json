@@ -10,7 +10,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "release": "auto shipit",
+        "release": "./scripts/release.sh",
         "commit": "commit"
     },
     "browserslist": {
