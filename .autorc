@@ -1,0 +1,8 @@
+{
+  "baseBranch": "master",
+  "author": "Hariom Sharma <hariom.s2510@gmail.com>",
+  "plugins": [
+    "npm",
+    "conventional-commits"
+  ]
+}
