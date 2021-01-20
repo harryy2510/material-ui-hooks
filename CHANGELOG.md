@@ -1,5 +1,18 @@
 # v0.2.4 (Wed Jan 20 2021)
 
+#### ⚠️ Pushed to `master`
+
+- fix: permissions (hariom@appointy.com)
+- fix: release process (hariom@appointy.com)
+
+#### Authors: 1
+
+- Hariom Sharma (hariom@appointy.com)
+
+---
+
+# v0.2.4 (Wed Jan 20 2021)
+
 #### 🐛 Bug Fix
 
 - fix: release process (hariom@appointy.com)
