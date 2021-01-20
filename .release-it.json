@@ -1,0 +1,19 @@
+{
+    "plugins": {
+        "@release-it/conventional-changelog": {
+            "preset": "conventionalcommits",
+            "infile": "CHANGELOG.md"
+        }
+    },
+    "npm": {
+        "publishPath": "build",
+        "skipChecks": true
+    },
+    "git": {
+        "commitMessage": "chore: release v${version}",
+        "requireCommits": true
+    },
+    "hooks": {
+        "after:bump": ["npm run build"]
+    }
+}
