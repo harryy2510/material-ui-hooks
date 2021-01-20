@@ -1,3 +1,15 @@
+# v0.2.1 (Wed Jan 20 2021)
+
+#### 🐛 Bug Fix
+
+- fix: update release (hariom@appointy.com)
+
+#### Authors: 1
+
+- Hariom Sharma (hariom@appointy.com)
+
+---
+
 # v0.2.0 (Wed Jan 20 2021)
 
 #### 🚀 Enhancement
