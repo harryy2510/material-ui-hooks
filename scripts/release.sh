@@ -7,7 +7,7 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
 
   ## Publish Package
-  npm version $VERSION -m "Bump version to: %s [skip ci]"
+  npm version $VERSION -m "chore: release v%s [skip ci]"
   npm run build
   node ./scripts/clean-and-copy.js
   npm publish build
