@@ -16,7 +16,9 @@
         "noEmit": true,
         "jsx": "react-jsx",
         "declaration": true,
-        "typeRoots": ["node_modules/@types"]
+        "typeRoots": ["node_modules/@types"],
+        "noFallthroughCasesInSwitch": true
     },
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules"],
+    "include": ["src"]
 }
