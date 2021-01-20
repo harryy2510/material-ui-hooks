@@ -1,6 +1,6 @@
 {
     "name": "@harryy/material-ui-hooks",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Useful hooks for material ui",
     "author": "Hariom Sharma <hariom.s2510@gmail.com>",
     "license": "MIT",
@@ -12,9 +12,7 @@
         "build": "react-scripts build",
         "postbuild": "node ./scripts/clean-and-copy.js",
         "commit": "commit",
-        "version": "npm version `auto version` -m 'chore: release v%s [skip ci]'",
-        "publish": "npm publish build && git push --follow-tags --set-upstream origin $branch",
-        "release": "auto changelog && npm run version && npm run build && npm run publish && auto release"
+        "release": "./scripts/release.sh"
     },
     "browserslist": {
         "production": [
@@ -38,8 +36,6 @@
         "react": "^17.0.1"
     },
     "devDependencies": {
-        "@auto-it/conventional-commits": "^10.11.0",
-        "@auto-it/npm": "^10.11.0",
         "@commitlint/cli": "^11.0.0",
         "@commitlint/config-conventional": "^11.0.0",
         "@commitlint/prompt-cli": "^11.0.0",

@@ -1,8 +1,0 @@
-{
-  "name": "Hariom Sharma",
-  "email": "hariom.s2510@gmail.com",
-  "plugins": [
-    "npm",
-    "conventional-commits"
-  ]
-}
