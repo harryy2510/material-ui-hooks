@@ -1,8 +1,13 @@
 {
-  "baseBranch": "master",
   "author": "Hariom Sharma <hariom.s2510@gmail.com>",
   "plugins": [
     "npm",
-    "conventional-commits"
+    "conventional-commits",
+    ["exec",
+      {
+        "version": "echo $ARG_0",
+        "publish": "echo $ARG_0"
+      }
+    ]
   ]
 }
